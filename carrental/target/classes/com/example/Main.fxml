@@ -90,5 +90,29 @@
                 <Font name="System Bold" size="14.0" />
             </font>
         </Button>
+      <Pane layoutX="3.0" layoutY="10.0" prefHeight="833.0" prefWidth="380.0" style="-fx-background-color: #1b1b1b;">
+         <children>
+            <Label layoutX="95.0" layoutY="137.0" text="100+" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="95.0" layoutY="182.0" text="Types of machines" textFill="#bcbcbc">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="95.0" layoutY="280.0" text="20K+" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="95.0" layoutY="325.0" text="Clients served" textFill="#bcbcbc">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
     </children>
 </Pane>

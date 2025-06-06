@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.catalogController">
+    <children>
+        <VBox layoutX="50" layoutY="50" spacing="20">
+            <Label style="-fx-font-size: 24; -fx-text-fill: black;" text="Available Cars" />
+            <Button onAction="#selectCar1" text="Car 1: Sedan - $50/day" />
+            <Button onAction="#selectCar2" text="Car 2: SUV - $70/day" />
+            <Button onAction="#selectCar3" text="Car 3: Convertible - $90/day" />
+            <Button onAction="#selectCar4" text="Car 4: Truck - $80/day" />
+        </VBox>
+    </children>
+</Pane>
