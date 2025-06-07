@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
-<Pane prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.catalogController">
+<Pane prefHeight="833.0" prefWidth="1258.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.CatalogController">
     <children>
         <VBox layoutX="50" layoutY="50" spacing="20">
             <Label style="-fx-font-size: 24; -fx-text-fill: black;" text="Available Cars" />
